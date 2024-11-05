@@ -24,7 +24,7 @@ This repository implements our paper [*Towards Accurate Building Recognition Usi
 
 We worked on a project that aims to recognize building historic from images in the city of Cusco in Peru. Building recognition from images is a challenging task since pictures can be taken from different angles and under different illumination conditions. An additional challenge is to differentiate buildings with a similar architectural design.
 
-![Dimensionality reduccion](angles.jpg)
+![Dimensionality reduccion](png.jpg)
 
 We compare the baseline method Bag-of-Words (We using SIFT and SURF to feature extraction) and the proposed CNN-based method (We propose a transfer learning approach using the models Vgg16, Vgg19, Inception-V3 and Xception to feature extraction).
 
