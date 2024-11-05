@@ -126,7 +126,8 @@ The implementation has been tested under a Mac OS environment with:
 ## Bag-of-Words
 
 <p align="center"><img width="50%" src="nips_2017.jpg" /></p>
-    
+
+![Dimensionality reduccion](bow.png)    
 - **Build Codebook**
 
   We used SURF to feature extraction. However, if you want to use another algorithm (for example: SIFT). You must change the line of code 'desc_method = cv2.SURF()' for 'desc_method = cv2.SIFT()' in script bovw_utils.py. Finally, to create the codebook, you need to run.
@@ -212,6 +213,8 @@ The implementation has been tested under a Mac OS environment with:
 <p align="center"><img width="50%" src="nips_2017.jpg" /></p>
 
 - **Compute Transfer Values**
+
+![Dimensionality reduccion](cnn.png)
 
 We use different pre-trained models of convolutional neural networks, these architectures were provided by the framework [Keras](https://github.com/fchollet/deep-learning-models) ([VGG16, VGG19](https://arxiv.org/abs/1409.1556), [Xception](https://arxiv.org/abs/1610.02357)) and [Magnus Erik Hvass Pedersen](https://github.com/Hvass-Labs/TensorFlow-Tutorials)([Inception-V3](https://arxiv.org/abs/1512.00567)).
 
