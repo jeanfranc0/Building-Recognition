@@ -30,25 +30,18 @@ We compare the baseline method Bag-of-Words (We using SIFT and SURF to feature e
 
 ![Dimensionality reduccion](approach.png)
 
-Contributions are welcome. If you went to Cusco you can send us your photos to increase our dataset. Send to email 120885@unsaac.edu.pe
+This repo explains dependencies, data preprocessing, training and testing for every module of our network:
 
-## Contents
-
-- [Dataset](#dataset)
-
-- [Requirements](#requirements)
-
-- [Data Preparation](#data-preparation)
-
-- [Bag-of-Words](#bag-of-words)
-
-- [Transfer Learning](#transfer-learning)
-
-- [Prediction](#prediction)
-
-- [Publication](#publication)
-
-- [Citation](#citation) 
+## Dependencies
+The implementation has been tested under a Mac OS environment with:
+* Python (V2.7)
+* Tensorflow  (V1.0.0)
+* Keras  (V2.0.2)
+* Matplotlib (V2.0.0)
+* Opencv  (V2.4.11)
+* NumPy  (V1.12.0)
+* SciPy (V0.18.1)
+* SciKitLearn (V0.18.1)
 
 ## Dataset
 
@@ -89,27 +82,6 @@ Contributions are welcome. If you went to Cusco you can send us your photos to i
     | 12      | Iglesia de San Francisco       |250|
     | 13      |  Iglesia de San Pedro     |280|
     | 14      |Iglesia de Santo Domingo    |  230|
-
-## Requirements
-
-- **To Transfer Learning**
-  - Python 2.7
-  
-  - Tensorflow  1.0.0
- 
-  - Keras  2.0.2 
-  
-  - Matplotlib 2.0.0.
-  
-- **To Bag-of-Words**
-  
-  - Opencv  2.4.11
-
-  - NumPy  1.12.0
-  
-  - SciPy 0.18.1
-  
-  - SciKitLearn 0.18.1
 
 ## Data Preparation
 
