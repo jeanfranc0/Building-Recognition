@@ -45,7 +45,7 @@ The implementation has been tested under a Mac OS environment with:
 
 ## Dataset
 
-  - [First Version](https://drive.google.com/drive/folders/0BzMfOBUQtl7dMHJfSGgtVTRZRDQ?usp=sharing). This consists of 2000 images of 14 different historical buildings of the city of Cusco. Next, the class number and the name of the historic building that corresponds to it is presented
+  - [First Version]. This consists of 2000 images of 14 different historical buildings of the city of Cusco. Next, the class number and the name of the historic building that corresponds to it is presented
   
     | Class label    | Building name   | Image number|
     | :---:         |     :---:       | :---:|
@@ -63,8 +63,11 @@ The implementation has been tested under a Mac OS environment with:
     | 12      | Iglesia de San Francisco       |135|
     | 13      |  Iglesia de San Pedro     |146|
     | 14      |Iglesia de Santo Domingo    |  132|
+
+  ![Dimensionality reduccion](dataset.png)
+
   
-  - [Second Version](https://drive.google.com/open?id=0B_aI63-sG2GwVWhKR1Q4bXYxZUk). This consists of 4560 images of 14 different historical buildings of the city of Cusco. Next, the class number and the name of the historic building that corresponds to it is presented
+  - [Second Version]. This consists of 4560 images of 14 different historical buildings of the city of Cusco. Next, the class number and the name of the historic building that corresponds to it is presented
 
     | Class label    | Building name   | Image number|
     | :---:         |     :---:       | :---:|
@@ -83,8 +86,9 @@ The implementation has been tested under a Mac OS environment with:
     | 13      |  Iglesia de San Pedro     |280|
     | 14      |Iglesia de Santo Domingo    |  230|
     
-![Dimensionality reduccion](dataset.png)
 ## Data Preparation
+
+![Dimensionality reduccion](pre.png)
 
 - **Format**
 
@@ -210,9 +214,9 @@ The implementation has been tested under a Mac OS environment with:
 
 ## Transfer Learning
 
-- **Compute Transfer Values**
-
 ![Dimensionality reduccion](cnn.png)
+
+- **Compute Transfer Values**
 
 We use different pre-trained models of convolutional neural networks, these architectures were provided by the framework [Keras](https://github.com/fchollet/deep-learning-models) ([VGG16, VGG19](https://arxiv.org/abs/1409.1556), [Xception](https://arxiv.org/abs/1610.02357)) and [Magnus Erik Hvass Pedersen](https://github.com/Hvass-Labs/TensorFlow-Tutorials)([Inception-V3](https://arxiv.org/abs/1512.00567)).
 
