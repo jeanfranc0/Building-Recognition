@@ -1,7 +1,6 @@
 # Towards Accurate Building Recognition Using Convolutional Neural Networks
 
-This repository implements our paper [*Towards Accurate Building Recognition Using Convolutional Neural Networks*](https://ieeexplore.ieee.org/abstract/document/8079686) and my thesis [*Evaluación de Técnicas de Aprendizaje de Máquina para la Identificación de Imágenes de Edificios Históricos de la Ciudad del Cusco Basado en Bag-of-Words y Redes Neuronales Convolucionales*](https://drive.google.com/file/d/1mJeQtKPU_tM2z3jph9FSdEQOhSpcQMJV/view?usp=sharing) (Spanish version).
-
+This repository implements our paper [*Towards Accurate Building Recognition Using Convolutional Neural Networks*](https://ieeexplore.ieee.org/abstract/document/8079686) and my thesis [*Evaluación de Técnicas de Aprendizaje de Máquina para la Identificación de Imágenes de Edificios Históricos de la Ciudad del Cusco Basado en Bag-of-Words y Redes Neuronales Convolucionales*](https://drive.google.com/file/d/1jEvaA3Q-oVf_AGPI2F1Sjf-Lj9nI-BQv/view?usp=sharing) (Spanish version).
 
 ```
 @inproceedings{farfan2017towards,
