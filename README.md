@@ -126,9 +126,8 @@ The implementation has been tested under a Mac OS environment with:
     
 ## Bag-of-Words
 
-<p align="center"><img width="50%" src="nips_2017.jpg" /></p>
-
 ![Dimensionality reduccion](bow.png)    
+
 - **Build Codebook**
 
   We used SURF to feature extraction. However, if you want to use another algorithm (for example: SIFT). You must change the line of code 'desc_method = cv2.SURF()' for 'desc_method = cv2.SIFT()' in script bovw_utils.py. Finally, to create the codebook, you need to run.
@@ -210,8 +209,6 @@ The implementation has been tested under a Mac OS environment with:
     - file_path_save_model : Predicted output filename(*.ckpt)
 
 ## Transfer Learning
-
-<p align="center"><img width="50%" src="nips_2017.jpg" /></p>
 
 - **Compute Transfer Values**
 
