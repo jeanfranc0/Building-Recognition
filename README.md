@@ -82,7 +82,8 @@ The implementation has been tested under a Mac OS environment with:
     | 12      | Iglesia de San Francisco       |250|
     | 13      |  Iglesia de San Pedro     |280|
     | 14      |Iglesia de Santo Domingo    |  230|
-
+    
+![Dimensionality reduccion](dataset.png)
 ## Data Preparation
 
 - **Format**
@@ -306,39 +307,9 @@ We use different pre-trained models of convolutional neural networks, these arch
   
   We have three cells in 'Prediction_models.ipynb', The first line, the machine learning algorithm is applied
  neural network, in the method 'main' 'saver = tf.train.import_meta_graph('model.ckpt.meta')' depends on the name of the previously generated file. The second line, represents a visualization of applying data augmentation. Finally, the machine learning algorithm is Support Vector Machine. We recommend using the last cell during the prediction process, because it presents the best results during this stage.
-   
-## Publication
- 
- You can review our paper, published in the IEEE Xplore Digital Library
- 
- - Tittle: [Towards accurate building recognition using convolutional neural networks](http://ieeexplore.ieee.org/document/8079686/)
- 
- - Authors: 
-  
-    - Jeanfranco D. Farfan-Escobedo. Escuela Profesional de Ingeniería Informática y de Sistemas, Universidad Nacional de San Antonio Abad del Cusco, Peru
-  
-    - Lauro Enciso-Rodas. Escuela Profesional de Ingeniería Informática y de Sistemas, Universidad Nacional de San Antonio Abad del Cusco, Peru
-  
-    - John E. Vargas-Muñoz. Institute of Computing - University of Campinas, Campinas, Brazil
- 
-## Citation
- 
- Finally, if you use the database or the code, do not forget to reference this work.
- 
- @inproceedings{farfan2017towards,
-  title={Towards accurate building recognition using convolutional neural networks},
-  author={Farfan-Escobedo, Jeanfranco D and Enciso-Rodas, Lauro and Vargas-Mu{\~n}oz, John E},
-  booktitle={Electronics, Electrical Engineering and Computing (INTERCON), 2017 IEEE XXIV International Conference on},
-  pages={1--4},
-  year={2017},
-  organization={IEEE}
-}
 
-  
-  
-   
-    
+ ![Dimensionality reduccion](prediction.png)
 
+ ## Results
 
- 
-              
+ ![Dimensionality reduccion](results.png)
